@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ascii-Art-Web</title>
+        <link rel="stylesheet" href="resources/css/style.css">
+        <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    </head>
+    <body>
+        <div class="container">
+        <div class="ascii-word">
+            <h1>Ascii-art-web</h1>
+        </div>
+        <div align = "center">
+            <form method="Post" action="index.html">
+                <div class="ccc">
+                    <div class = "radio"  >
+                        <input type="radio" id="contactChoice1" name="banner" value="standard" class="banner" checked>
+                        <label for="contactChoice1" >standard</label>
+                        <input type="radio" id="contactChoice2" name="banner" value="shadow" class="banner" >
+                        <label for="contactChoice2" >shadow</label>
+                        <input type="radio" id="contactChoice3" name="banner" value="thinkertoy" class="banner" >
+                        <label for="contactChoice3" >thinkertoy</label>    
+                    </div>
+                    <div class="inputword">
+                        <label for="fname">Input word:</label><br>
+                    </div>
+                    <textarea id="fname" name="word" class="input_txtstyle" cols="10" rows="10" required></textarea>
+                </div>
+                <div class = "div-submit">
+                    <input type="submit" value="Submit" class="submit">
+                </div>
+              </form> 
+        </div>
+        <div class="output">
+            <pre class="pre-result">{{.}}</pre>
+        </div>
+    </body>
+</html> 

@@ -1,0 +1,119 @@
+body {
+    background: url(../img/background.png) no-repeat center fixed;
+}
+label {
+    color: #a082e6;
+    letter-spacing:5px;
+}
+.ccc {
+    padding-bottom: 25px;
+}
+.inputword {
+    padding-bottom: 15px;
+}
+.radio {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.input_txtstyle {
+    outline: none !important;
+    box-shadow: 0 0 10px #719ECE;
+    background-color: #e9f2fe;
+    width:300px;
+    padding:100px;
+}
+.ascii-word {
+    padding:100px;   
+}
+h1{
+    text-align: center;
+    text-shadow: 2px 2px;
+    color: #a082e6;
+    letter-spacing:15px;
+
+}
+.input_txtstyle {
+    border-style: ridge;
+    border-color: #719ECE;
+    padding: 5px;
+}
+.pre_result{
+    color: u#a082e6;
+}
+.div-submit {
+    padding-bottom: 50px;
+}
+.submit{
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+    background-color: #d5dfff;
+    border: none;
+    color: #a082e6;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.output {
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+    margin: 0 auto;
+    width: 700px;
+    height: 500px;
+    overflow:scroll;
+    color: #8867d4;
+}
+
+
+@media only screen and (max-width: 720px) {
+    .output {
+        width:300px;
+        height: 150px;
+        padding:50px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+  h1{
+    font-size: 24px;
+  }
+}
+/* 
+@media only screen and (max-width: 650px) {
+    .Ascii-art-web{
+        padding: 20px;
+        font-size: 14px;
+    }
+} */
+
+@media only screen and (max-width: 650px) {
+    .output {
+        width:200px;
+        height: 100px;
+        padding:50px;
+    }
+    .input_txtstyle {
+        width:20px;
+        height: 50px;
+        padding:50px;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .output {
+        width:200px;
+        height: 100px;
+        padding:50px;
+    }
+    .input_txtstyle {
+        width:20px;
+        height: 50px;
+        padding:50px;
+    }
+    .radio {
+        flex-direction: column;
+    }
+}
