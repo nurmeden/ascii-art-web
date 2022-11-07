@@ -1,33 +1,29 @@
-Objectives
+# ascii-art-web
 
-You must follow the same principles as the first subject.
+## Authors:
+- @Dulat_Nurmeden
+- @Zhayt
 
-Ascii-art-stylize consists on making your site :
+## Usage:
 
-    more appealing, interactive and intuitive.
-    more user friendly.
-    give more feedback to the user.
+1.To run program use the following command
 
-Instructions
+  
+    go run .
 
-    Your project must contain CSS.
-    The code must respect the good practices.
-    We suggest that you search for the principles of a good website design.
-    It must be possible to see the text properly regardless of the colors used.
-    The website must be consistent, responsive and interactive.
+2.Open the web browser and go to
 
-Allowed packages
+    http://localhost:8080/
 
-    Only the standard go packages are allowed
+3.![image description](resources/img/Screenshot%20from%202022-11-07%2020-17-01.png)
 
-This project will help you learn about:
 
-    The basics of human-computer interface.
-    The basics of CSS.
-    Linking CSS and HTML.
+## IMPLEMENTATION
+    
+ - Write a server.go / actually a server.
 
-![alt text](./Pictures/Screenshot from 2022-11-07 20-05-42.png)
-<!-- <p align="center">
-  <img src="your_relative_path_here" width="350" title="hover text">
-  <img src="" width="350" alt="accessibility text">
-</p> -->
+ - Implement ascii-art-fs to server.
+
+ - Code an html page and style it!
+
+ - Optimize and handle all errors.
