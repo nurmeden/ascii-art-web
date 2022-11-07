@@ -2,6 +2,7 @@ package packages
 
 import (
 	"bufio"
+	"io/ioutil"
 	"log"
 	"os"
 	"strings"
@@ -12,9 +13,12 @@ func AsciiArt(word string, banner string) (string, int) {
 	result := ""
 	reading_file := banner + ".txt"
 	readFile, err := os.Open(reading_file)
+	inData, err := ioutil.ReadFile(banner + ".txt")
 	if err != nil {
-		StatusCode = 500
-		return result, StatusCode
+		return "", 404
+	}
+	if !CheckerHash(inData) {
+		return "", 500
 	}
 	fileScanner := bufio.NewScanner(readFile)
 	fileScanner.Split(bufio.ScanLines)
