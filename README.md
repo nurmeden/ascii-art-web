@@ -25,3 +25,9 @@ This project will help you learn about:
     The basics of human-computer interface.
     The basics of CSS.
     Linking CSS and HTML.
+
+![alt text](./Pictures/Screenshot from 2022-11-07 20-05-42.png)
+<!-- <p align="center">
+  <img src="your_relative_path_here" width="350" title="hover text">
+  <img src="" width="350" alt="accessibility text">
+</p> -->
